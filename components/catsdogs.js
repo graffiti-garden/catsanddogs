@@ -62,7 +62,7 @@ export default function({myID, useCollection}) { return {
     },
 
     remove(post) {
-      if (confirm("Are you sure you want to delete this post?") {
+      if (confirm("Are you sure you want to delete this post?")) {
         post._remove()
       }
     }
